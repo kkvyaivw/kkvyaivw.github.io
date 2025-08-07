@@ -4,25 +4,6 @@
   
   
   <entry>
-    <title>线性代数（未完成）（其实是什么都还没写）</title>
-    <link href="/2025/08/04/Linear-Algebra/"/>
-    <url>/2025/08/04/Linear-Algebra/</url>
-    
-    <content type="html"><![CDATA[<p>oi 里的数学内容。</p><h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><h3 id="矩阵乘法"><a href="#矩阵乘法" class="headerlink" title="矩阵乘法"></a>矩阵乘法</h3><p>设 $A$ 为 $P\times M$ 的矩阵， $B$ 为 $M\times Q$ 的矩阵，则</p><p>$$C&#x3D;A\times B$$</p><p>$$C_{i,j}&#x3D;\sum^{M}<em>{k&#x3D;1}{A</em>{i,k}\times B_{k,j}}$$</p><h3 id="矩阵快速幂"><a href="#矩阵快速幂" class="headerlink" title="矩阵快速幂"></a>矩阵快速幂</h3><p>利用结合律，用于加速递推。</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>算法</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>完成了对博客的搭建</title>
     <link href="/2025/08/03/test/"/>
     <url>/2025/08/03/test/</url>
