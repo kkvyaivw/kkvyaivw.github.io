@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>做题纪录 Codeforces Round 1043 (Div. 3)</title>
+    <link href="/2025/08/22/pr-cf-1043-div3/"/>
+    <url>/2025/08/22/pr-cf-1043-div3/</url>
+    
+    <content type="html"><![CDATA[<p>2025.8.21，10:35~12:50。</p><h3 id="A"><a href="#A" class="headerlink" title="A"></a>A</h3><p>字符串模拟。由于网卡等原理用了 5 分钟才切。第一发选错语言还 CE 了，还好没计入罚时。</p><h3 id="B"><a href="#B" class="headerlink" title="B"></a>B</h3><p>给定 $n$ ，求所有 $x$ 满足 $n&#x3D;x+x\times 10^k$ 。 $n,x,k$ 都是整数， $k$ 可以是任意整数。</p><p>竟然想了一分钟才想出来。我太菜了。只需要枚举 $k$ 然后判断 $10^k+1$ 是否整除 $n$ 即可。</p><h3 id="C1"><a href="#C1" class="headerlink" title="C1"></a>C1</h3><p>3 进制拆位计算。垃圾 Copilot 翻译，浪费我至少 10 分钟。</p><p><img src="/img/img_250822_2.png" alt="垃圾copilot翻译"></p><h3 id="C2"><a href="#C2" class="headerlink" title="C2"></a>C2</h3><p>由于很困所以把题意记错了，浪费很多时间（20mins+）。</p><p>容易发现，我们可以多花费两次交易次数，然后对于一个进制位（设 $3^k$ ），可以节省 $3^{k-1}$ 元。</p><p>所以用贪心法从高位到低位推过去就可以。</p><h3 id="D"><a href="#D" class="headerlink" title="D"></a>D</h3><p>赛时没做出来。太困了调不动大模拟。题目很原，感觉在洛谷做过。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>做题纪录</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>个人纪录 25.8.18~25.8.21</title>
     <link href="/2025/08/21/rec2508-1/"/>
     <url>/2025/08/21/rec2508-1/</url>
@@ -90,7 +109,7 @@
     
     <tags>
       
-      <tag>日志</tag>
+      <tag>个人纪录</tag>
       
     </tags>
     
